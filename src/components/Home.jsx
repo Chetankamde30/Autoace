@@ -12,7 +12,7 @@ export function Home() {
       <Slider/>
       <Card2/>
       <Card1/>
-      <Footer/>
+      
     </>
   );
 }
