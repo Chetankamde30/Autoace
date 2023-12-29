@@ -4,11 +4,11 @@ import CardGroup from 'react-bootstrap/CardGroup';
 import mission from './images/mission.jpg'
 import vision from './images/vision.jpg'
 import values from './images/values.jpg'
-
-
+import { Navigationbar } from "./Navigationbar";
 export function About(){
     return (
         <Container>
+        <Navigationbar/>
             <Alert variant="primary">
                 <p>🛠️Founded in 2023, AutoAce is a leading servicing website streamlining and revolutionising the repairing,maintainence, bike in Nagpur, Mumbai, Pune, and Gujrat. Leveraging a Smart AI Pricing Engine, and 140 quality checks, reparing vehicles is seamless and transparent with Autoace. </p>
             </Alert> 

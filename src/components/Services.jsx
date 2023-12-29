@@ -3,10 +3,12 @@ import { Button, Container } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Image1 from './images/Image1.jpg'
+import { Navigationbar } from "./Navigationbar";
 
 function Services() {
   return (
     <Container class="mt-5">
+    <Navigationbar/>
     <div> 
         <CardGroup>
     <Card>

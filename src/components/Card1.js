@@ -4,8 +4,19 @@ import Button from 'react-bootstrap/Button';
 import Image4 from './images/Image4.jpg';
 import Image5 from './images/Image5.jpg';
 import Image6 from './images/Image6.jpg';
+import { useNavigate } from "react-router-dom";
 export default function Card1()
 {
+
+  const Navigate=useNavigate();
+  const handleButton=()=>{
+    Navigate('/AdminPage');
+    }
+
+  const handleButtonChange=()=>{
+    Navigate('/UserPage')
+  }  
+
     return(
     <CardGroup>
       <Card>
@@ -17,19 +28,19 @@ export default function Card1()
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-        <Button variant="outline-primary">Book Now..</Button>{' '}
+        <Button variant="outline-primary" onClick={handleButton}>Book Now..</Button>{' '}
         </Card.Footer>
       </Card>
       <Card>
         <Card.Img variant="top" src= {Image5} style={{height:'35vh' }} />
         <Card.Body>
-          <Card.Title>"Combo Service"</Card.Title>
+          <Card.Title>" Register Service Center"</Card.Title>
           <Card.Text>
           There is no need for you to search for expert mechanics and technicians as we have arranged that for you through our website.{' '}
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-        <Button variant="outline-primary">Book Now..</Button>{' '}
+        <Button variant="outline-primary" onClick={handleButtonChange}>Register Now..</Button>{' '}
         </Card.Footer>
       </Card>
       <Card>
