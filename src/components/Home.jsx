@@ -6,7 +6,6 @@ import  Card2  from "./Card2";
 import { Navigationbar } from "./Navigationbar";
 //import Footer from "./Footer/Footer";
 
-
 export function Home() {
   return (
     <>
