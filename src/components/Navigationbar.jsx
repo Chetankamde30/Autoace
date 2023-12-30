@@ -25,13 +25,12 @@ export function Navigationbar() {
     //       </Container>
     //   </Navbar>
 
-    <Navbar expand="lg" className="bg-body-tertiary sticky-top">
+    <Navbar style={{ backgroundColor: "#030f27" }} variant="dark">
       <Container>
-        <Navbar.Brand href="#home">AUTOACE</Navbar.Brand>
+        <Navbar.Brand href="#home">🛠️AUTOACE</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            
             <LinkContainer to="/">
               <Nav.Link>Home</Nav.Link>
             </LinkContainer>
