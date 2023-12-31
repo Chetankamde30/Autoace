@@ -62,7 +62,7 @@ export default function Adminlogin(){
                                 <Button variant="success" type="submit" href="/AdminPage">
                                     Login 
                                 </Button>
-                                <a href="/AdminRegistration" className="ml-5 px-4">Register Now..</a>
+                                <a href="/AdminRegistration" className="ml-5 px-5">Register Now..</a>
                                 </Container>
                                 
                             </Form>
