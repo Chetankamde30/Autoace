@@ -48,7 +48,7 @@ export default function AdminNavigationbar() {
               <Nav.Link>View Feedback</Nav.Link>
             </LinkContainer>
 
-            <LinkContainer to="">
+            <LinkContainer to="/ViewContact">
               <Nav.Link>View Contact</Nav.Link>
             </LinkContainer>
           </Nav>

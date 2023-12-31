@@ -24,7 +24,6 @@ export function Navigationbar() {
     //           </Navbar.Collapse>
     //       </Container>
     //   </Navbar>
-
     <Navbar expand="lg" className="bg-body-tertiary sticky-top">
       <Container>
         <Navbar.Brand href="#home">AUTOACE</Navbar.Brand>
@@ -49,7 +48,7 @@ export function Navigationbar() {
             </LinkContainer>
 
             <NavDropdown title="Login" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">
+              <NavDropdown.Item href="/Adminlogin">
                 Admin Login
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">User Login</NavDropdown.Item>

@@ -7,16 +7,14 @@ import Image6 from './images/Image6.jpg';
 import { useNavigate } from "react-router-dom";
 export default function Card1()
 {
-
   const Navigate=useNavigate();
   const handleButton=()=>{
-    Navigate('/AdminPage');
+    Navigate('/Login');
     }
 
-  const handleButtonChange=()=>{
-    Navigate('/UserPage')
-  }  
-
+  // const handleButtonChange=()=>{
+  //   Navigate('/Login')
+  // }  
     return(
     <CardGroup>
       <Card>
@@ -40,7 +38,7 @@ export default function Card1()
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-        <Button variant="outline-primary" onClick={handleButtonChange}>Register Now..</Button>{' '}
+        <Button variant="outline-primary">Register Now..</Button>{' '}
         </Card.Footer>
       </Card>
       <Card>
